@@ -130,7 +130,3 @@ subplot(1,3,2) % CORRELATION blue value vs. bias_double
 scatter(Blue_values, mean(Bias_double, 2)), ylim([0 1.1]), xlabel('Relative Blue Intensity'), ylabel('Bias Double')
 subplot(1,3,3) % CORRELATION blue value vs. probability congruency
 scatter(Blue_values, mean(Probability_Congruency, 2), 'r'), ylim([0 1.1]), ylabel('Congruency')
-
-%% what to do now...?
-% regression model between continuous and intermittent data.
-% fit data to 2017 predictive codng model... with veith's help.
